@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c6f5a2a0bbca3cfa",
+        "id": "b8321098270fa984",
         "type": "tabs",
         "children": [
           {
-            "id": "f590edf854cc2b6b",
+            "id": "acc3314733960de4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C-Sharp Routing Practical.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-Sharp Routing Practical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-Sharp Routing Practical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C-Sharp Routing Practical.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,6 +138,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f590edf854cc2b6b",
-  "lastOpenFiles": []
+  "active": "acc3314733960de4",
+  "lastOpenFiles": [
+    "C-Sharp Routing Practical.md"
+  ]
 }
