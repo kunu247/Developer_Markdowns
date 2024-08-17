@@ -110,13 +110,14 @@ The `EXEC` (or `EXECUTE`) statement in MS SQL Server is used to execute a stored
 ### 10. **Executing a Stored Procedure with Default Parameters**
     If a stored procedure has default values for parameters, you can omit those parameters in the `EXEC` statement.
 
-    **Example:**
+**Example:**
+
     ```sql
     -- Assuming 'usp_GetStudentInfo' has a default value for '@Age'
     EXEC usp_GetStudentInfo @StudentId = 1;
     ```
 
-    If `@Age` has a default value, it will be used automatically.
+If `@Age` has a default value, it will be used automatically.
 
 ### 11. **Executing a Stored Procedure and Handling Errors**
     You can use `TRY...CATCH` to handle errors when executing a stored procedure.
