@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "08476c3da29fa8ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To insert records into a table from a SELECT query.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android Studio Shortcuts.md",
+                "file": "To insert records into a table from a SELECT query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android Studio Shortcuts.md",
+                "file": "To insert records into a table from a SELECT query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android Studio Shortcuts.md"
+                "file": "To insert records into a table from a SELECT query.md"
               }
             }
           }
@@ -160,10 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a15bdbb9b42dac61",
+  "active": "08476c3da29fa8ca",
   "lastOpenFiles": [
-    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
     "Android Studio Shortcuts.md",
+    "To insert records into a table from a SELECT query.md",
+    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
     "difference_between_implementation_in_AS-config.md",
     "Student Entity CRUD MVC App With ADO.NET.md",
     "C-Sharp Routing Practical.md"
