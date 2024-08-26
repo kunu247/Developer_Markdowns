@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e75c1822b9cf08fe",
+        "id": "c5cee57e1c821d02",
         "type": "tabs",
         "children": [
           {
-            "id": "93d6274f215776ae",
+            "id": "7b24293a260319df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a15bdbb9b42dac61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android Studio Shortcuts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08476c3da29fa8ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To insert records into a table from a SELECT query.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To insert records into a table from a SELECT query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To insert records into a table from a SELECT query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "To insert records into a table from a SELECT query.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -172,11 +139,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08476c3da29fa8ca",
+  "active": "7b24293a260319df",
   "lastOpenFiles": [
+    "Task Management System By Dev_Kunal.md",
+    "Android Studio All Essential Shortcuts.md",
+    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
     "Android Studio Shortcuts.md",
     "To insert records into a table from a SELECT query.md",
-    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
+    "Windows Batch script command to open CMD in administrator mode.md",
     "difference_between_implementation_in_AS-config.md",
     "Student Entity CRUD MVC App With ADO.NET.md",
     "C-Sharp Routing Practical.md"
