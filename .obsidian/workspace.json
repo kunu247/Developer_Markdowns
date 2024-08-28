@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c5cee57e1c821d02",
+        "id": "6d2400d78fea0196",
         "type": "tabs",
         "children": [
           {
-            "id": "7b24293a260319df",
+            "id": "30db51e70de904d9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "692d66f694ca38cd",
@@ -139,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b24293a260319df",
+  "active": "30db51e70de904d9",
   "lastOpenFiles": [
+    "To create a BCA Students Attendance System using SQLite.md",
     "Task Management System By Dev_Kunal.md",
     "Android Studio All Essential Shortcuts.md",
     "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
