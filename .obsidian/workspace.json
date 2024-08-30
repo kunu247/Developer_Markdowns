@@ -13,13 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
                 "file": "Shrish_Project_FMS-app.md",
                 "mode": "source",
-=======
-                "file": "Food Management System - Shrish Project Idea.md",
-                "mode": "preview",
->>>>>>> Stashed changes
                 "source": false
               }
             }
@@ -91,11 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
                 "file": "Shrish_Project_FMS-app.md",
-=======
-                "file": "Food Management System - Shrish Project Idea.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,11 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
                 "file": "Shrish_Project_FMS-app.md",
-=======
-                "file": "Food Management System - Shrish Project Idea.md",
->>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,11 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
                 "file": "Shrish_Project_FMS-app.md"
-=======
-                "file": "Food Management System - Shrish Project Idea.md"
->>>>>>> Stashed changes
               }
             }
           }
@@ -166,12 +149,9 @@
   },
   "active": "54b3a35702fbb3a4",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
+    "Food Management System - Shrish Project Idea.md",
     "Shrish_Project_FMS-app.md",
     "To create a BCA Students Attendance System using SQLite.md",
-=======
-    "Food Management System - Shrish Project Idea.md",
->>>>>>> Stashed changes
     "Task Management System By Dev_Kunal.md",
     "Android Studio All Essential Shortcuts.md",
     "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
