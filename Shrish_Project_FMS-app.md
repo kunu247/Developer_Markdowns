@@ -16,75 +16,86 @@ Generate or create the MS SQL Table structures and Stored Procedures which is us
 
 ### SQL Table Structures
 
-1. **Customers Table**
-   ```sql
+-- 1. Customers Table
    CREATE TABLE Customers (
        CustomerID INT IDENTITY(1,1) PRIMARY KEY,
-       Name NVARCHAR(100) NOT NULL,
-       PhoneNumber NVARCHAR(15),
-       Email NVARCHAR(100),
-       Address NVARCHAR(255),
-       RegistrationDate DATETIME DEFAULT GETDATE()
+       cName NVARCHAR(100) NOT NULL,
+       cPhone NVARCHAR(15),
+       cEmail NVARCHAR(100),
+       cAddress NVARCHAR(255),
+       cRegistrationDate DATETIME DEFAULT GETDATE(),
+	   CreatedBy NVARCHAR(100) NULL,
+	   CreatedOn DATETIME DEFAULT GETDATE(),
+	   UpdatedBy NVARCHAR(100) NULL,
+	   UpdatedOn DATETIME NULL
    );
-   ```
 
-2. **FoodTypes Table**
-   ```sql
+-- 2. FoodTypes Table
    CREATE TABLE FoodTypes (
        FoodTypeID INT IDENTITY(1,1) PRIMARY KEY,
        Name NVARCHAR(100) NOT NULL,
        Description NVARCHAR(255),
        Price DECIMAL(10, 2) NOT NULL,
-       CreatedAt DATETIME DEFAULT GETDATE(),
-       UpdatedAt DATETIME
+	   CreatedBy NVARCHAR(100) NULL,
+	   CreatedOn DATETIME DEFAULT GETDATE(),
+	   UpdatedBy NVARCHAR(100) NULL,
+	   UpdatedOn DATETIME NULL
    );
-   ```
 
-3. **CoWorkers Table**
-   ```sql
+-- 3. CoWorkers Table
    CREATE TABLE CoWorkers (
        CoWorkerID INT IDENTITY(1,1) PRIMARY KEY,
-       Name NVARCHAR(100) NOT NULL,
-       Role NVARCHAR(50),
-       PhoneNumber NVARCHAR(15),
-       Address NVARCHAR(255),
-       HireDate DATETIME DEFAULT GETDATE()
+       cwName NVARCHAR(100) NOT NULL,
+       cwRole NVARCHAR(50),
+       cwPhone NVARCHAR(15),
+       cwAddress NVARCHAR(255),
+       cwHireDate DATETIME DEFAULT GETDATE(),
+	   CreatedBy NVARCHAR(100) NULL,
+	   CreatedOn DATETIME DEFAULT GETDATE(),
+	   UpdatedBy NVARCHAR(100) NULL,
+	   UpdatedOn DATETIME NULL
    );
-   ```
 
-4. **Ingredients Table**
-   ```sql
+-- 4. Ingredients Table
    CREATE TABLE Ingredients (
-       IngredientID INT IDENTITY(1,1) PRIMARY KEY,
-       Name NVARCHAR(100) NOT NULL,
+       ID INT IDENTITY(1,1) PRIMARY KEY,
+	   IID VARCHAR(10) UNIQUE NOT NULL,
+       IngrediantName NVARCHAR(100) NOT NULL,
        Quantity NVARCHAR(50),
        UnitPrice DECIMAL(10, 2) NOT NULL,
-       PurchaseDate DATETIME DEFAULT GETDATE()
+       PurchaseDate DATETIME DEFAULT GETDATE(),
+	   CreatedBy NVARCHAR(100) NULL,
+	   CreatedOn DATETIME DEFAULT GETDATE(),
+	   UpdatedBy NVARCHAR(100) NULL,
+	   UpdatedOn DATETIME NULL
    );
-   ```
 
-5. **Incomes Table**
-   ```sql
+-- 5. Incomes Table
    CREATE TABLE Incomes (
        IncomeID INT IDENTITY(1,1) PRIMARY KEY,
        CustomerID INT FOREIGN KEY REFERENCES Customers(CustomerID),
        FoodTypeID INT FOREIGN KEY REFERENCES FoodTypes(FoodTypeID),
        Quantity INT NOT NULL,
        TotalAmount DECIMAL(10, 2) NOT NULL,
-       IncomeDate DATETIME DEFAULT GETDATE()
+       IncomeDate DATETIME DEFAULT GETDATE(),
+	   CreatedBy NVARCHAR(100) NULL,
+	   CreatedOn DATETIME DEFAULT GETDATE(),
+	   UpdatedBy NVARCHAR(100) NULL,
+	   UpdatedOn DATETIME NULL
    );
-   ```
 
-6. **Expenditures Table**
-   ```sql
+-- 6. Expenditures Table
    CREATE TABLE Expenditures (
        ExpenditureID INT IDENTITY(1,1) PRIMARY KEY,
-       IngredientID INT FOREIGN KEY REFERENCES Ingredients(IngredientID),
+       IngredientID INT FOREIGN KEY REFERENCES Ingredients(ID),
        Quantity INT NOT NULL,
        TotalCost DECIMAL(10, 2) NOT NULL,
-       ExpenditureDate DATETIME DEFAULT GETDATE()
+       ExpenditureDate DATETIME DEFAULT GETDATE(),
+	   CreatedBy NVARCHAR(100) NULL,
+	   CreatedOn DATETIME DEFAULT GETDATE(),
+	   UpdatedBy NVARCHAR(100) NULL,
+	   UpdatedOn DATETIME NULL
    );
-   ```
 
 ### Stored Procedures
 
@@ -187,3 +198,186 @@ Generate or create the MS SQL Table structures and Stored Procedures which is us
    ```
 
 These table structures and stored procedures will help you manage the food stall's data efficiently. You can create more stored procedures for updating, deleting, and retrieving data as needed for your application.
+
+To provide the Entity-Relationship Diagram (ERD) and Data Flow Diagram (DFD) for the "Mumbai ka Vyapari" application, we first need to analyze the provided SQL table structures and stored procedures.
+
+### Entity-Relationship Diagram (ERD)
+
+The ERD will represent the entities (tables) and their relationships in the database. Here are the main entities based on your SQL schema:
+
+1. **Customers**: Contains customer details like name, phone, email, etc.
+2. **FoodTypes**: Lists different types of food items, including their prices and descriptions.
+3. **CoWorkers**: Stores information about co-workers such as name, role, phone number, etc.
+4. **Ingredients**: Details various ingredients used, their quantities, unit prices, etc.
+5. **Incomes**: Represents sales transactions, linking customers and food types with quantities and total amounts.
+6. **Expenditures**: Tracks purchases of ingredients, their quantities, and total costs.
+
+#### ERD Breakdown
+
+- **Primary Keys**: Each table has a unique identifier, such as `CustomerID`, `FoodTypeID`, `CoWorkerID`, `ID` (for Ingredients), `IncomeID`, and `ExpenditureID`.
+- **Foreign Keys**: 
+  - `CustomerID` in **Incomes** references `CustomerID` in **Customers**.
+  - `FoodTypeID` in **Incomes** references `FoodTypeID` in **FoodTypes**.
+  - `IngredientID` in **Expenditures** references `ID` in **Ingredients**.
+
+Here is a textual representation of the ERD:
+
+```
+[Customers]
+| CustomerID (PK)
+| cName
+| cPhone
+| cEmail
+| cAddress
+| cRegistrationDate
+| CreatedBy
+| CreatedOn
+| UpdatedBy
+| UpdatedOn
+
+[FoodTypes]
+| FoodTypeID (PK)
+| Name
+| Description
+| Price
+| CreatedBy
+| CreatedOn
+| UpdatedBy
+| UpdatedOn
+
+[CoWorkers]
+| CoWorkerID (PK)
+| cwName
+| cwRole
+| cwPhone
+| cwAddress
+| cwHireDate
+| CreatedBy
+| CreatedOn
+| UpdatedBy
+| UpdatedOn
+
+[Ingredients]
+| ID (PK)
+| IID (Unique)
+| IngrediantName
+| Quantity
+| UnitPrice
+| PurchaseDate
+| CreatedBy
+| CreatedOn
+| UpdatedBy
+| UpdatedOn
+
+[Incomes]
+| IncomeID (PK)
+| CustomerID (FK)
+| FoodTypeID (FK)
+| Quantity
+| TotalAmount
+| IncomeDate
+| CreatedBy
+| CreatedOn
+| UpdatedBy
+| UpdatedOn
+
+[Expenditures]
+| ExpenditureID (PK)
+| IngredientID (FK)
+| Quantity
+| TotalCost
+| ExpenditureDate
+| CreatedBy
+| CreatedOn
+| UpdatedBy
+| UpdatedOn
+```
+
+#### Relationships:
+
+- **Customers** to **Incomes**: One-to-Many (A customer can have multiple incomes).
+- **FoodTypes** to **Incomes**: One-to-Many (A food type can appear in multiple incomes).
+- **Ingredients** to **Expenditures**: One-to-Many (An ingredient can appear in multiple expenditures).
+
+### Data Flow Diagram (DFD)
+
+The DFD will illustrate how data flows within the application based on user interactions and stored procedures.
+
+#### Level 0 (Context Level)
+
+1. **External Entities**: 
+   - User (Admin, Manager)
+   
+2. **Processes**:
+   - Manage Customers
+   - Manage Food Types
+   - Manage Co-Workers
+   - Manage Ingredients
+   - Manage Incomes
+   - Manage Expenditures
+   - Calculate Sales and Purchases
+
+3. **Data Stores**:
+   - Customers Table
+   - FoodTypes Table
+   - CoWorkers Table
+   - Ingredients Table
+   - Incomes Table
+   - Expenditures Table
+
+```
++-----------------------------------------+
+|                 User                    |
+|-----------------------------------------|
+|   |                                      |
+|   |                                      |
+v   v                                      v
+[Manage Customers]  [Manage Food Types]  [Manage Co-Workers]
+|                   |                     |
+v                   v                     v
+[Customers Table]   [FoodTypes Table]     [CoWorkers Table]
+
+[Manage Ingredients]  [Manage Incomes]  [Manage Expenditures]
+|                     |                 |
+v                     v                 v
+[Ingredients Table]  [Incomes Table]    [Expenditures Table]
+
+              [Calculate Sales and Purchases]
+                       |
+                       v
+            [Sales and Purchases Report]
+```
+
+#### Level 1 (Detailed)
+
+1. **Manage Customers**:
+   - Insert, Update, Delete, View customers.
+   - Data flows to/from **Customers Table**.
+
+2. **Manage Food Types**:
+   - Insert, Update, Delete, View food types.
+   - Data flows to/from **FoodTypes Table**.
+
+3. **Manage Co-Workers**:
+   - Insert, Update, Delete, View co-workers.
+   - Data flows to/from **CoWorkers Table**.
+
+4. **Manage Ingredients**:
+   - Insert, Update, Delete, View ingredients.
+   - Data flows to/from **Ingredients Table**.
+
+5. **Manage Incomes**:
+   - Insert, Update, Delete, View incomes.
+   - Data flows to/from **Incomes Table**.
+
+6. **Manage Expenditures**:
+   - Insert, Update, Delete, View expenditures.
+   - Data flows to/from **Expenditures Table**.
+
+7. **Calculate Sales and Purchases**:
+   - Generate sales and purchase reports based on date ranges.
+   - Data flows to/from **Incomes Table** and **Expenditures Table**.
+
+### Summary
+
+The ERD and DFD provide a comprehensive overview of the data management structure and the flow of operations in the "Mumbai ka Vyapari" application. This setup supports efficient data handling and reporting for managing a food stall’s operations, including customer relations, inventory management, sales tracking, and expense monitoring.

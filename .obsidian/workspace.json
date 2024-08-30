@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "692d66f694ca38cd",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "032beeed5337d1ce",
+  "active": "54b3a35702fbb3a4",
   "lastOpenFiles": [
     "Shrish_Project_FMS-app.md",
     "To create a BCA Students Attendance System using SQLite.md",
