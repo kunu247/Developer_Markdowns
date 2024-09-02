@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54e912e64db443c6",
+        "id": "6fb0dfb8227cfff7",
         "type": "tabs",
         "children": [
           {
-            "id": "54b3a35702fbb3a4",
+            "id": "fd7c8c646b91158f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,7 +17,27 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "fafcca5f530f4d74"
+          }
+        ]
+      },
+      {
+        "id": "563318080cdf704f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b2f0a2e851d589f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shrish_Project_FMS-app.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "fafcca5f530f4d74"
           }
         ]
       }
@@ -147,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54b3a35702fbb3a4",
+  "active": "8b2f0a2e851d589f",
   "lastOpenFiles": [
-    "Food Management System - Shrish Project Idea.md",
+    "Untitled.md",
     "Shrish_Project_FMS-app.md",
+    "Food Management System - Shrish Project Idea.md",
     "To create a BCA Students Attendance System using SQLite.md",
     "Task Management System By Dev_Kunal.md",
     "Android Studio All Essential Shortcuts.md",
