@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"8d33f0f3f7456694","type":"text","text":"Data Access","x":5,"y":-140,"width":250,"height":60,"color":"2"},
+		{"id":"c9441de9e30e5eab","type":"text","text":"DbContext","x":300,"y":-290,"width":250,"height":60,"color":"#f3fd5d"},
+		{"id":"e19163a91cf1a72a","type":"text","text":"Database","x":355,"y":-480,"width":140,"height":60,"color":"1"},
+		{"id":"35b666774ee6e8b0","type":"text","text":"Stored Procedure","x":645,"y":-540,"width":200,"height":60,"color":"4"},
+		{"id":"fe75ebd1d06f296e","type":"text","text":"Tables","x":645,"y":-420,"width":140,"height":60,"color":"4"},
+		{"id":"638be77a3d406a13","type":"text","text":"Business Object","x":5,"y":40,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"d9a7ba2e7d874a61","fromNode":"8d33f0f3f7456694","fromSide":"bottom","toNode":"638be77a3d406a13","toSide":"top"},
+		{"id":"c2aac009ab36c0ef","fromNode":"e19163a91cf1a72a","fromSide":"right","toNode":"35b666774ee6e8b0","toSide":"left"},
+		{"id":"6726f2faf8b59c9e","fromNode":"e19163a91cf1a72a","fromSide":"right","toNode":"fe75ebd1d06f296e","toSide":"left"},
+		{"id":"d9f27af02b15245b","fromNode":"e19163a91cf1a72a","fromSide":"bottom","toNode":"c9441de9e30e5eab","toSide":"top"},
+		{"id":"d81f451f438960e2","fromNode":"c9441de9e30e5eab","fromSide":"left","toNode":"8d33f0f3f7456694","toSide":"top"}
+	]
+}
