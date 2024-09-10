@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8a059570f7e774f0",
+        "id": "b25630085cf8d512",
         "type": "tabs",
         "children": [
           {
-            "id": "3dca9fb6f015a3b8",
+            "id": "0ab8e65cd26c5011",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3dca9fb6f015a3b8",
+  "active": "0ab8e65cd26c5011",
   "lastOpenFiles": [
+    "Railway Recruitment.md",
+    "Pasted image 20240910123944.png",
+    "Pasted image 20240910123802.png",
+    "Railway_Recruitment_Dtl.html",
+    "Pasted image 20240910105843.png",
+    "Pasted image 20240910105834.png",
+    "Untitled 1.md",
     "Shrish_Project_FMS-app.md",
     "Untitled.md",
     "Food Management System - Shrish Project Idea.md",
