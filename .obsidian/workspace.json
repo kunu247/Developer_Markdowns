@@ -42,9 +42,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b3e71be9b015e59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "E-Js ViewEngine in NodeJS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d971a055178bce1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inventory-Management-App_New-Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52a4231592620de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Connecting MS SQL Server to the Node WebApp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5812eddf542b91d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -111,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node_js-WebApp MVC.md",
+                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node_js-WebApp MVC.md",
+                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node_js-WebApp MVC.md"
+                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md"
               }
             }
           }
@@ -172,8 +220,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22c3c89d23e0435a",
+  "active": "5812eddf542b91d9",
   "lastOpenFiles": [
+    "Inventory-Management-App_New-Structure.md",
+    "NodeJS Middlewares Explaination-Usage-WithExamples.md",
+    "Connecting MS SQL Server to the Node WebApp.md",
+    "E-Js ViewEngine in NodeJS.md",
     "Node_js-WebApp MVC.md",
     "Java-Basics.md",
     "Java Web App With NetBeans IDE.md",
@@ -200,10 +252,6 @@
     "To create a BCA Students Attendance System using SQLite.md",
     "Task Management System By Dev_Kunal.md",
     "Android Studio All Essential Shortcuts.md",
-    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md",
-    "Android Studio Shortcuts.md",
-    "To insert records into a table from a SELECT query.md",
-    "Windows Batch script command to open CMD in administrator mode.md",
-    "difference_between_implementation_in_AS-config.md"
+    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md"
   ]
 }
