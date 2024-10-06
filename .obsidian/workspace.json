@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dec40f499e40fbea",
+        "id": "e5f4faee25031ed7",
         "type": "tabs",
         "children": [
           {
-            "id": "df713b51c36b9bf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ASP-NET_MVC_For_Create_ActionLink.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "037f8b41234c5fcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java-Basics.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22c3c89d23e0435a",
+            "id": "0f8bbc4b5dd75b77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,57 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6b3e71be9b015e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "E-Js ViewEngine in NodeJS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d971a055178bce1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inventory-Management-App_New-Structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52a4231592620de2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Connecting MS SQL Server to the Node WebApp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5812eddf542b91d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -142,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "692d66f694ca38cd",
@@ -159,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md",
+                "file": "Node_js-WebApp MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md",
+                "file": "Node_js-WebApp MVC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJS Middlewares Explaination-Usage-WithExamples.md"
+                "file": "Node_js-WebApp MVC.md"
               }
             }
           }
@@ -220,38 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5812eddf542b91d9",
+  "active": "0f8bbc4b5dd75b77",
   "lastOpenFiles": [
-    "Inventory-Management-App_New-Structure.md",
-    "NodeJS Middlewares Explaination-Usage-WithExamples.md",
-    "Connecting MS SQL Server to the Node WebApp.md",
-    "E-Js ViewEngine in NodeJS.md",
+    "Visual Studio Shortcuts for Emmets.md",
+    "Synopsis Methodology.md",
+    "IMS_Full_Info.md",
+    "Transactional_Query_Tutorial.md",
+    "2024-10-06.md",
+    "Untitled.canvas",
+    "Inventory Management System Project with SQL and C-Sharp.md",
+    "Untitled 1.md",
+    "Synopsis.md",
+    "Section for styles and scripts in ASP-NET MVC Web APP.md",
     "Node_js-WebApp MVC.md",
+    "NodeJS Middlewares Explaination-Usage-WithExamples.md",
+    "MS_SQL_Server_WITH-Statement.md",
+    "MS_SQL_Server_WITH-NOLOCK_Statement.md",
+    "MS SQL Server Index.md",
     "Java-Basics.md",
     "Java Web App With NetBeans IDE.md",
     "Java Web App - Init.md",
+    "Inventory-Management-App_New-Structure.md",
+    "E-Js ViewEngine in NodeJS.md",
+    "Connecting MS SQL Server to the Node WebApp.md",
     "Backup the VS Code IDE in Windows.md",
-    "ASP-NET_MVC_For_Create_ActionLink.md",
-    "Transactional_Query_Tutorial.md",
-    "Section for styles and scripts in ASP-NET MVC Web APP.md",
     "BCA Notebooks Sem 5.md",
-    "MS_SQL_Server_WITH-NOLOCK_Statement.md",
-    "MS_SQL_Server_WITH-Statement.md",
-    "MS SQL Server Index.md",
-    "Visual Studio Shortcuts for Emmets.md",
+    "ASP-NET_MVC_For_Create_ActionLink.md",
     "Railway Recruitment.md",
     "Pasted image 20240910123944.png",
     "Pasted image 20240910123802.png",
     "Railway_Recruitment_Dtl.html",
     "Pasted image 20240910105843.png",
     "Pasted image 20240910105834.png",
-    "Untitled 1.md",
-    "Shrish_Project_FMS-app.md",
-    "Untitled.md",
-    "Food Management System - Shrish Project Idea.md",
-    "To create a BCA Students Attendance System using SQLite.md",
-    "Task Management System By Dev_Kunal.md",
-    "Android Studio All Essential Shortcuts.md",
-    "What_is_Activity_Fragments_Services_in_Android_Studio_Java.md"
+    "Shrish_Project_FMS-app.md"
   ]
 }
